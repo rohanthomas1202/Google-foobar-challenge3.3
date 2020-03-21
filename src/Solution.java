@@ -2,7 +2,6 @@ public class Solution {
     public static void main(String[] args) {
         System.out.println(solution("2","1"));
         System.out.println(solution("7","4"));
-        System.out.println(solution("11","11"));
     }
 
     /*
