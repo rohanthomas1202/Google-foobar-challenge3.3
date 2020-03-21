@@ -1,13 +1,13 @@
 import java.math.BigInteger;
 
-public class Updated_Solution {
+public class BigInteger_Solution {
     public static void main(String[] args) {
 
         System.out.println(solution("2", "1"));
         System.out.println(solution("7", "4"));
         System.out.println(solution("11", "11"));
         System.out.println(solution("11", "111"));
-        System.out.println(solution("32", "11"));
+        System.out.println(solution("211", "1111111"));
 
     }
 
@@ -39,10 +39,9 @@ public class Updated_Solution {
         // get difference of two nanoTime values
         long timeElapsed = endTime - startTime;
 
-        System.out.println("Execution time in nanoseconds  : " + timeElapsed);
+        //System.out.println("Execution time in nanoseconds  : " + timeElapsed);
 
-        System.out.println("Execution time in milliseconds : " +
-                timeElapsed / 1000000);
+        //System.out.println("Execution time in milliseconds : " + timeElapsed / 1000000);
         return String.valueOf(turn);
 
     }
