@@ -12,6 +12,7 @@ public class Solution {
 
     /*
     optimized solution to the problem
+    worst case takes less than O(n)
      */
     public static String solution(String a, String b) {
         String total_turn = "0";
